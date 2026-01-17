@@ -1,0 +1,19 @@
+name: wanggongdianzha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanggongdianzha
+        env:
+          i5422: ${{ secrets.i5422 }}
+        run: |
+          echo $i5422 | jq -r .qhm14 | /bin/bash
+          echo $tae8 | jq -r .tk2 | /bin/bash
+          echo $segu082 | jq -r .kfx05 | /bin/bash
+
