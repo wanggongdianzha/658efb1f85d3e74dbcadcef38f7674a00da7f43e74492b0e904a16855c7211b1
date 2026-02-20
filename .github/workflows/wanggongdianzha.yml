@@ -1,33 +1,26 @@
 name: wanggongdianzha
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 0/6 * * *'
+    - cron: '51 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanggongdianzha
         env:
-          djxew07137: ${{ secrets.djxew07137 }}
+          sv61: ${{ secrets.sv61 }}
         run: |
-          echo $djxew07137 | jq -r .gb0 | /bin/bash
-          echo $v94 | jq -r .ykn49561 | /bin/bash
-          echo $undh9377 | jq -r .n5 | /bin/bash
-          echo $hczvx930 | jq -r .pubg4 | /bin/bash
-          echo $rnd7 | jq -r .ndltb1 | /bin/bash
-          echo $yav158 | jq -r .skauq269 | /bin/bash
-          echo $ttcp82496 | jq -r .xtwxe537 | /bin/bash
-          echo $ffa6 | jq -r .pnoso18 | /bin/bash
-          echo $cq3 | jq -r .hecrj2620 | /bin/bash
-          echo $qhn90 | jq -r .al0051 | /bin/bash
-          echo $un5 | jq -r .kkpnr8 | /bin/bash
-          echo $dnpl9780 | jq -r .vgqz79 | /bin/bash
-          echo $vzj30124 | jq -r .cnab0041 | /bin/bash
-          echo $lzska29198 | jq -r .rboa8574 | /bin/bash
-          echo $jnnhw349 | jq -r .hfl8 | /bin/bash
-          echo $gjcb0840 | jq -r .ccbgj21141 | /bin/bash
+          echo $sv61 | jq -r .j0768 | /bin/bash
+          echo $n08 | jq -r .ypi00 | /bin/bash
+          echo $fw6227 | jq -r .mr6 | /bin/bash
+          echo $sx1 | jq -r .lkz145 | /bin/bash
+          echo $lws55 | jq -r .v5107 | /bin/bash
+          echo $s460 | jq -r .mhac89575 | /bin/bash
+          echo $bmg1 | jq -r .kk36643 | /bin/bash
+          echo $aukz7 | jq -r .kki47291 | /bin/bash
+          echo $cigo327 | jq -r .fy3594 | /bin/bash
 
